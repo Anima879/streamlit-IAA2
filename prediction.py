@@ -10,6 +10,11 @@ import nltk
 import re
 import contractions
 
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('omw-1.4')
+
 with open('model', 'rb') as file:
     model = pickle.load(file)
 
