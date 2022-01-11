@@ -1,5 +1,4 @@
 from typing import List, Union
-
 import textblob
 import pickle
 import numpy as np
